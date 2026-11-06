@@ -1,0 +1,16 @@
+{
+  "name": "THE CULTT — Подача заявки",
+  "short_name": "THE CULTT",
+  "start_url": "/cultt-seller-application/",
+  "scope": "/cultt-seller-application/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/cultt-seller-application/assets/seller-application/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
