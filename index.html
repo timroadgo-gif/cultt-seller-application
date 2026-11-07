@@ -4,16 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#ffffff" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="THE CULTT" />
+    <meta name="apple-mobile-web-app-title" content="Заявка CULTT" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="description" content="Прототип подачи заявки на продажу в THE CULTT." />
-    <link rel="manifest" href="/cultt-seller-application/assets/manifest-CUBsyGwn.webmanifest" />
+    <link rel="manifest" href="/cultt-seller-application/assets/manifest-C6k3fBxR.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="/cultt-seller-application/assets/seller-application/logo.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/cultt-seller-application/assets/seller-application/icons/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/cultt-seller-application/assets/seller-application/icons/apple-touch-icon.png" />
     <title>THE CULTT — Подача заявки</title>
     <script type="module" crossorigin src="/cultt-seller-application/assets/index-DBpwHO8A.js"></script>
     <link rel="stylesheet" crossorigin href="/cultt-seller-application/assets/index-PImgSa5h.css">
     <meta name="robots" content="noindex, nofollow" />
+    <meta name="app-build" content="30b09627dfe3" />
+    <script>(()=>{const m=document.querySelector('meta[name="app-build"]');if(!m||!window.fetch)return;const cur=m.content;const url=new URL('version.json',document.baseURI);const check=()=>fetch(url+'?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(v=>{if(!v||!v.build||v.build===cur)return;const k='app-build-reload:'+v.build;try{if(sessionStorage.getItem(k))return;sessionStorage.setItem(k,'1')}catch(e){}const u=new URL(location.href);u.searchParams.set('v',v.build);location.replace(u.href)}).catch(()=>{});check();document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')check()});addEventListener('pageshow',e=>{if(e.persisted)check()})})();</script>
   </head>
   <body>
     <div id="root"></div>
